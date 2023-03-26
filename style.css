@@ -189,6 +189,9 @@ span{
     height: 128px;
     bottom: 190px;
   }
+   span{
+    filter: blur(2px);
+  }
     @keyframes animate{
     0%{
       transform: translatey(0) scalex(2);
