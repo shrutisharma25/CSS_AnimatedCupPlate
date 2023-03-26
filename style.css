@@ -133,3 +133,61 @@ span{
     transform: translatey(-300px) scalex(10);
   }
 }
+
+@media screen and (max-width: 1180px) {
+  .container {
+    top: 20px;
+  }
+  .cup {
+    height: 240px;
+    width: 224px;
+  }
+  .top {
+    top:-25px;
+    height: 48px;
+  }
+  .circle {
+    height: 40px;
+    top: 2px;
+  }
+  .handle {
+    width: 128px;
+    height: 144px;
+    right: -60px;
+    border-width: 20px;
+  }
+  .plate {
+    width: 400px;
+    height: 160px;
+    bottom: 400px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .container {
+    top: 10px;
+  }
+  .cup {
+    height: 180px;
+    width: 168px;
+  }
+  .top {
+    top:-20px;
+    height: 36px;
+  }
+  .circle {
+    height: 30px;
+    top: 1px;
+  }
+  .handle {
+    width: 96px;
+    height: 108px;
+    right: -40px;
+    border-width: 15px;
+  }
+  .plate {
+    width: 320px;
+    height: 128px;
+    bottom: 320px;
+  }
+}
