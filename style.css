@@ -134,6 +134,80 @@ span{
   }
 }
 
+@media screen and (max-width: 480px) {
+  .container {
+    top: 10px;
+  }
+  .cup {
+    height: 180px;
+    width: 168px;
+  }
+  .top {
+    top:-20px;
+    height: 36px;
+  }
+  .circle {
+    height: 30px;
+    top: 1px;
+  }
+  .handle {
+    width: 96px;
+    height: 108px;
+    right: -40px;
+    border-width: 15px;
+  }
+  .plate {
+    width: 320px;
+    height: 128px;
+    bottom: 320px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .container {
+    top: 10px;
+  }
+  .cup {
+    height: 180px;
+    width: 168px;
+  }
+  .top {
+    top:-20px;
+    height: 36px;
+  }
+  .circle {
+    height: 30px;
+    top: 1px;
+  }
+  .handle {
+    width: 96px;
+    height: 108px;
+    right: -40px;
+    border-width: 15px;
+  }
+  .plate {
+    width: 320px;
+    height: 128px;
+    bottom: 310px;
+  }
+    @keyframes animate{
+    0%{
+      transform: translatey(0) scalex(1);
+      opacity: 0;
+    }
+    15%{
+      opacity: 1;
+    }
+    50%{
+      transform: translatey(-50px) scalex(5); 
+    }
+    95%{
+      opacity: 0;
+    }
+    100%{
+      transform: translatey(-200px) scalex(10);
+    }
+  }
+}
 @media screen and (max-width: 1180px) {
   .container {
     top: 20px;
@@ -160,34 +234,5 @@ span{
     width: 400px;
     height: 160px;
     bottom: 400px;
-  }
-}
-
-@media screen and (max-width: 740px) {
-  .container {
-    top: 10px;
-  }
-  .cup {
-    height: 180px;
-    width: 168px;
-  }
-  .top {
-    top:-20px;
-    height: 36px;
-  }
-  .circle {
-    height: 30px;
-    top: 1px;
-  }
-  .handle {
-    width: 96px;
-    height: 108px;
-    right: -40px;
-    border-width: 15px;
-  }
-  .plate {
-    width: 320px;
-    height: 128px;
-    bottom: 320px;
   }
 }
