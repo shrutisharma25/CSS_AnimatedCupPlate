@@ -162,7 +162,7 @@ span{
     bottom: 320px;
   }
 }
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 786px) {
   .container {
     top: 10px;
   }
