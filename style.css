@@ -208,31 +208,3 @@ span{
     }
   }
 }
-@media screen and (max-width: 1180px) {
-  .container {
-    top: 20px;
-  }
-  .cup {
-    height: 240px;
-    width: 224px;
-  }
-  .top {
-    top:-25px;
-    height: 48px;
-  }
-  .circle {
-    height: 40px;
-    top: 2px;
-  }
-  .handle {
-    width: 128px;
-    height: 144px;
-    right: -60px;
-    border-width: 20px;
-  }
-  .plate {
-    width: 400px;
-    height: 160px;
-    bottom: 400px;
-  }
-}
