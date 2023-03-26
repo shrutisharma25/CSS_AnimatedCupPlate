@@ -206,13 +206,13 @@ span{
       opacity: 1;
     }
     50%{
-      transform: translatey(-20px) scalex(5); 
+      transform: translatey(-20px) scalex(3); 
     }
     95%{
       opacity: 0;
     }
     100%{
-      transform: translatey(-150px) scalex(10);
+      transform: translatey(-150px) scalex(5);
     }
   }
 }
