@@ -191,20 +191,20 @@ span{
   }
     @keyframes animate{
     0%{
-      transform: translatey(0) scalex(1);
+      transform: translatey(0) scalex(2);
       opacity: 0;
     }
     15%{
       opacity: 1;
     }
     50%{
-      transform: translatey(-50px) scalex(5); 
+      transform: translatey(-20px) scalex(3); 
     }
     95%{
       opacity: 0;
     }
     100%{
-      transform: translatey(-200px) scalex(10);
+      transform: translatey(-150px) scalex(6);
     }
   }
 }
